@@ -598,7 +598,7 @@ class img_dataset():
 
 		sys.stdout.write("\rreading images:%3.2f%%" % (100))
 		sys.stdout.flush()
-		print ""
+		print ("")
 
 		self.y = y
 		if not self.only_labels:
