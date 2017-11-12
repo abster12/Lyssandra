@@ -511,7 +511,7 @@ class img_dataset():
 			if(n_classes_used >= self.max_n_classes):
 				break
 
-		print "using",n_classes_used,"classes of the dataset","with a total of",img_count,"images"
+		print ("using",n_classes_used,"classes of the dataset","with a total of",img_count,"images")
 		return imgs,cl_counts
 
 	def get_labels(self):
